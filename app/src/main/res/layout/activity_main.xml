@@ -34,12 +34,23 @@
             android:src="@drawable/pict2"
             android:textAlignment="center" />
 
-        <EditText
-            android:id="@+id/editTextNama"
+        <TextView
+            android:id="@+id/textViewNama"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <android.support.design.widget.TextInputLayout
             android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:singleLine="false"
-            android:text="Nama" />
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/editTextNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Nama"
+                android:singleLine="false" />
+        </android.support.design.widget.TextInputLayout>
+
 
         <TextView
             android:id="@+id/textViewjk"
@@ -101,11 +112,23 @@
             android:layout_height="wrap_content"
             android:text="Paracetamol" />
 
-        <EditText
-            android:id="@+id/editTextAlamat"
-            android:layout_width="309dp"
-            android:layout_height="wrap_content"
-            android:text="Alamat" />
+
+        <TextView
+            android:id="@+id/textViewAlamat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:id="@+id/editTextAlamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="Alamat" />
+
+        </android.support.design.widget.TextInputLayout>
 
         <Spinner
             android:id="@+id/spinnerProv"

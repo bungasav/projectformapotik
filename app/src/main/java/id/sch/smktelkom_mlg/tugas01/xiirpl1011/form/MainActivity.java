@@ -65,29 +65,29 @@ public class MainActivity extends AppCompatActivity {
                 String provinsi = spinnerProv.getSelectedItem().toString();
                 String hasil1 = "Jenis obat yang anda pilih : \n";
                 String akhir = "Nama : " + nama + "\n"
-                        + "Alamat : " + alamat + "\n";
-                String akhir2 = "\n" + "Anda bertempat tinggal di provisi :" + provinsi + "\n"
+                        + "Alamat : " + alamat + "\n"
+                        + "Anda bertempat tinggal di provisi :" + provinsi + "\n"
                         + "Jenis kelamin :" + hasil;
 
                 if (checkbox1.isChecked())
                     hasil1 += checkbox1.getText() + "\n";
-                tvhasil.setText(akhir + hasil1 + akhir2);
+                tvhasil.setText(akhir + hasil1);
 
                 if (checkBox2.isChecked())
                     hasil1 += checkBox2.getText() + "\n";
-                tvhasil.setText(akhir + hasil1 + akhir2);
+                tvhasil.setText(akhir + hasil1);
 
                 if (checkBox3.isChecked())
                     hasil1 += checkBox3.getText() + "\n";
-                tvhasil.setText(akhir + hasil1 + akhir2);
+                tvhasil.setText(akhir + hasil1);
 
                 if (checkBox4.isChecked())
                     hasil1 += checkBox4.getText() + "\n";
-                tvhasil.setText(akhir + hasil1 + akhir2);
+                tvhasil.setText(akhir + hasil1);
 
                 if (checkBox5.isChecked())
                     hasil1 += checkBox5.getText() + "\n";
-                tvhasil.setText(akhir + hasil1 + akhir2);
+                tvhasil.setText(akhir + hasil1);
 
             }
         }
